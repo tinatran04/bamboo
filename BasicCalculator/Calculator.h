@@ -2,5 +2,5 @@
 class Calculator
 {
 public:
-    double Calculate(double x, char oper, double y);
+    int Calculate(int x, char oper, int y);
 };

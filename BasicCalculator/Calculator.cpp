@@ -1,6 +1,6 @@
 #include "Calculator.h"
 
-double Calculator::Calculate(double x, char oper, double y)
+int Calculator::Calculate(int x, char oper, int y)
 {
     switch (oper)
     {
@@ -12,6 +12,8 @@ double Calculator::Calculate(double x, char oper, double y)
         return x * y;
     case '/':
         return x / y;
+    case '%':
+        return x % y;
     default:
         return 0.0;
     }
